@@ -1,11 +1,12 @@
 import React from "react";
-import BankTable from "./components/BankTable";
+import FlowCanvas from "./components/FlowCanvas";
+import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
-    <div style={{ fontFamily: "Arial, sans-serif", margin: "40px" }}>
-      <h2>Bank Accounts</h2>
-      <BankTable />
+    <div className="app-container">
+      <Sidebar />
+      <FlowCanvas />
     </div>
   );
 }
