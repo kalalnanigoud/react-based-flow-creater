@@ -1,13 +1,26 @@
-button {
-  background-color: #007bff;
-  border: none;
-  color: white;
-  padding: 6px 12px;
-  margin-right: 6px;
-  border-radius: 4px;
-  cursor: pointer;
+.app-container {
+  display: flex;
+  height: 100vh;
 }
 
-button:hover {
-  background-color: #0056b3;
+.sidebar {
+  width: 200px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar h3 {
+  margin-top: 0;
+}
+
+.flow-canvas {
+  flex: 1;
+  height: 100%;
+}
+
+.node-editor {
+  padding: 20px;
+  background-color: #fff;
+  border-left: 1px solid #ddd;
 }
