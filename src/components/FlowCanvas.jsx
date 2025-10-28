@@ -7,7 +7,7 @@ import ReactFlow, {
   useEdgesState,
   useNodesState
 } from "reactflow";
-import "reactflow/dist/base.css";
+import "reactflow/dist/style.css";
 
 const initialNodes = [
   { id: "1", position: { x: 250, y: 5 }, data: { label: "Start" }, type: "input" },
